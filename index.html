@@ -3,19 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>certificate</title>
-    <link rel="stylesheet" href="/Content/TemplateContent/1/bootstrap.min.css">
-    <link rel="stylesheet" href="/Content/TemplateContent/1/minion-pro-cufonfonts-webfont/style.css">
-    <link rel="stylesheet" media="print" href="/Content/TemplateContent/1/print.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="stylesheet" href="assets/style.css">
-    <script src="/Content/TemplateContent/1/popper.min.js"></script>
 
     <style>
         * {
             margin: 0;
             padding: 0;
+
         }
 
         .certificate {
@@ -32,8 +32,6 @@
             /* to centre page on screen*/
             margin-left: auto;
             margin-right: auto;
-
-
         }
 
         .certificate_content {
@@ -48,7 +46,7 @@
         }
 
         .top-heading img {
-            max-width: 180px;
+            max-width: 310px;
         }
 
         @page {
@@ -66,7 +64,6 @@
             /* ... the rest of the rules ... */
         }
 
-
         .text-center {
             text-align: center;
         }
@@ -75,8 +72,7 @@
             border: none;
             border-bottom: 1px solid #000;
             background-color: transparent;
-            width: 100%;
-
+            text-align: center;
         }
 
         input:focus {
@@ -84,8 +80,6 @@
         }
 
         .sign-one {
-            width: 100px;
-            height: 100px;
             margin-right: 10px;
             float: left;
             text-align: center;
@@ -96,6 +90,82 @@
             float: left;
             margin-right: 5px;
         }
+
+
+        @font-face {
+            font-family: "Leckerli One";
+            font-style: normal;
+            font-weight: 400;
+            src: local("Leckerli One Regular"),
+                url("assets/Fonts/LeckerliOne-Regular.ttf") format("ttf");
+        }
+
+        @font-face {
+            font-family: "Leckerli One";
+            font-style: normal;
+            font-weight: 400;
+            src: local("Leckerli One Regular"),
+                url("../Fonts/LeckerliOne-Regular.ttf") format("ttf");
+        }
+
+        .top-heading h1 {
+            font-family: "Leckerli One";
+            -webkit-font-smoothing: antialiased;
+            font-size: 64px;
+            margin: 20px 0px 0px;
+            font-weight: 500;
+        }
+
+        .top-heading h3 {
+            font-size: 28px;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .top-heading h5 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .form_content {
+            font-family: "Roboto", sans-serif;
+            margin-top: 45px;
+            text-align: center;
+        }
+
+        .form_content h6 {
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 1.5;
+        }
+
+        .form_content input {
+            font-size: 25px;
+            font-weight: 600;
+
+        }
+
+        .sign {
+            margin-top: 100px;
+        }
+
+        .sign img {
+            width: 200px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 13px;
+        }
+
+        .sign h4 {
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-size: 26px;
+            margin-bottom: 5px;
+        }
+
+        .name_input {
+            font-size: 40px;
+            padding-bottom: 10px;
+        }
     </style>
 </head>
 
@@ -103,24 +173,26 @@
     <div class="certificate">
         <img src="assets/a4_certificate.png" class="bg-img" alt="">
         <div class="certificate_content">
-            <div class="top-heading text-center" style="font-family: adobe-devanagari, sans-serif;">
+            <div class="top-heading text-center" style="font-family: 'Leckerli One';">
                 <img src="assets/event_logo.png" class="" alt="">
                 <h1>CERTIFICATE</h1>
                 <h3>OF EXCELLENCE</h3>
                 <h5>This is Presented to</h5>
             </div>
-            <div class="form_content">
-                <input type="text" style="width: 100%;" readonly>
-                <h6 class="text-center" style="margin: 30px 0px; font-size: 22px; ">for securing <input type="text"
-                        style="width: 60px;" readonly>
-                    position in <input type="text" style="width: 100px;" readonly>, in
-                    E-Summit'24. <br> Team
-                    Entrepreneurship Development Cell, NIT Durgapur appreciates your <br>efforts and congratulates you
+            <div class=" form_content">
+                <input class="name_input" type="text" value="NAME" style="width: 100%; margin-bottom: 30px;" readonly>
+                <h6 class="text-center">for securing <input type="text" value="150" style="width: 60px;" readonly>
+                    position in <input type="text" style="max-width: 290px;" readonly>, in
+                    E-Summit'24. </h6>
+                <h6> Team
+                    Entrepreneurship Development Cell, NIT Durgapur appreciates your</h6>
+                <h6>efforts and congratulates
+                    you
                     on your exceptional performance.
                 </h6>
                 <div class="sign">
                     <div class="sign-one">
-                        <img src="assets/president.PNG" alt="">
+                        <img src="assets/president.png" alt="">
                         <h4>Faculty Advisor</h4>
                     </div>
                     <div class="sign-one" style="float: inline-end;">
@@ -135,50 +207,3 @@
 </body>
 
 </html>
-
-<!-- <div class="background-class">
-                    <div class="text-center Logo"> <img src="/Content/TemplateContent/1/img/Verified-University.svg" alt=""
-                            class="img-fluid"> </div>
-                    <div class="text-content">
-                        <div class="text-center heading1">
-                            <h2 class="my-auto">[Name]</h2>
-                        </div>
-                        <div class="text-center sub_heading">
-                            <p>having fulfilled the conditions <br />prescribed by the University is, on this day,
-                                <br />conferred the degree of
-                            </p>
-                        </div>
-                        <div class="text-center heading2">
-                            <h2>[Degree]</h2>
-                        </div>
-                    </div>
-                    <div class="text-center last divider"> <img src="/Content/TemplateContent/1/img/Divider.svg" alt=""
-                            class="img-fluid"> </div>
-                    <div class="footer d-flex text-center my-2">
-                        <div class="">
-                            <div class="sign m-auto"> <img src="/Content/TemplateContent/1/Chancellor-01.png" alt=""
-                                    class="img-fluid">
-                                <p>Chancellor</p>
-                            </div>
-                        </div>
-                        <div class="m-auto">
-                            <div class="qr_code"> <img src="[QRCodeImage]" alt="" class="img-fluid"> </div>
-                            <div> <img src="/Content/TemplateContent/1/img/vdg-secured.svg" class=" my-2" alt=""
-                                    style="max-width: 193px;">
-                                <p>Please scan this QR code to verify certificate on blockchain</p>
-                            </div>
-                        </div>
-                        <div class="">
-                            <div class="seal m-auto"> <img src="/Content/TemplateContent/1/img/Red-Seal.svg" alt=""
-                                    class="img-fluid mb-2">
-                                <p>Given under seal</p>
-                                <p>[DateOfIssue]</p>
-                                <p>[DocumentNumber]</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center last-text">
-                        <h5>[AuthorityIssuer]</h5>
-                        <p>Brisbane, Australia</p>
-                    </div>
-                </div> -->

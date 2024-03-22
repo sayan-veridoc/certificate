@@ -1,21 +1,30 @@
 @font-face {
   font-family: "adobe-devanagari";
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   src: local("adobe-devanagari"),
-    url("../assets/Fonts/AdobeDevanagari-Bold.otf") format("otf");
+    url("/assets/Fonts/AdobeDevanagari-Bold.otf") format("otf");
 }
+
+/* @font-face {
+  font-family: "adobe-devanagari";
+  font-style: normal;
+  font-weight: 500;
+  src: local("adobe-devanagari"),
+      url("./assets/Fonts/AdobeDevanagari-Regular.otf")format("otf");
+} */
+
 @font-face {
   font-family: "adobe-devanagari";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   src: local("adobe-devanagari"),
-    url("../assets/Fonts/AdobeDevanagari-Regular.otf") format("otf");
+    url("./assets/Fonts/AdobeDevanagari-Regular.otf") format("otf");
 }
+
 @font-face {
-  font-family: "Leckerli One";
+  font-family: "Arial CE Regular";
   font-style: normal;
   font-weight: 400;
-  src: local("Leckerli One Regular"),
-    url("../fonts/LeckerliOne-Regular.ttf") format("ttf");
+  src: local("Arial CE Regular"), url("ArialCE.woff") format("woff");
 }
