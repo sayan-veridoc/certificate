@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "adobe-devanagari";
+  font-style: normal;
+  font-weight: normal;
+  src: local("adobe-devanagari"),
+    url("../assets/Fonts/AdobeDevanagari-Bold.otf") format("otf");
+}
+@font-face {
+  font-family: "adobe-devanagari";
+  font-style: normal;
+  font-weight: normal;
+  src: local("adobe-devanagari"),
+    url("../assets/Fonts/AdobeDevanagari-Regular.otf") format("otf");
+}
+@font-face {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Leckerli One Regular"),
+    url("../fonts/LeckerliOne-Regular.ttf") format("ttf");
+}
